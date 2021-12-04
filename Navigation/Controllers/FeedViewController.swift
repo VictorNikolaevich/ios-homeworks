@@ -11,19 +11,28 @@ class FeedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        //Назначаем цвет фона и название view
+        view.backgroundColor = .white
+        title = "Feed"
+        
+        //Создаем кнопку располагаем ее на view
+        let button = UIButton()
+        button.setTitle("Transition to Post", for: .normal)
+        button.backgroundColor = .systemOrange
+        view.addSubview(button)
+        button.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
+        button.center = view.center
+        button.layer.cornerRadius = 25
+        button.addTarget(self, action: #selector(buttonTappedtoPost), for: .touchUpInside)
+       
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func buttonTappedtoPost() {
+        
+        //Переход в PostVC по нажатию кнопки
+        let postViewController = PostViewController()
+        self.navigationController?.pushViewController(postViewController, animated: true)
+        
     }
-    */
-
 }
