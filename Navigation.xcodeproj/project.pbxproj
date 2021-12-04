@@ -11,6 +11,8 @@
 		8405DF6C275B57BA00D244DE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405DF6B275B57BA00D244DE /* MainTabBarController.swift */; };
 		8405DF71275B57BD00D244DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8405DF70275B57BD00D244DE /* Assets.xcassets */; };
 		8405DF74275B57BD00D244DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8405DF72275B57BD00D244DE /* LaunchScreen.storyboard */; };
+		8405DF7F275B6A3F00D244DE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405DF7E275B6A3E00D244DE /* FeedViewController.swift */; };
+		8405DF81275B6A6700D244DE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405DF80275B6A6700D244DE /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		8405DF70275B57BD00D244DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8405DF73275B57BD00D244DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8405DF75275B57BD00D244DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8405DF7E275B6A3E00D244DE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		8405DF80275B6A6700D244DE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				8405DF6B275B57BA00D244DE /* MainTabBarController.swift */,
+				8405DF7E275B6A3E00D244DE /* FeedViewController.swift */,
+				8405DF80275B6A6700D244DE /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -156,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8405DF6C275B57BA00D244DE /* MainTabBarController.swift in Sources */,
+				8405DF7F275B6A3F00D244DE /* FeedViewController.swift in Sources */,
+				8405DF81275B6A6700D244DE /* ProfileViewController.swift in Sources */,
 				8405DF68275B57BA00D244DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
