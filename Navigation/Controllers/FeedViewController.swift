@@ -8,7 +8,10 @@
 import UIKit
 
 class FeedViewController: UIViewController {
-
+    
+    //Создаем объект типа Post
+    let post: Post = Post(title: "Post")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,8 +33,8 @@ class FeedViewController: UIViewController {
     
     @objc func buttonTappedtoPost() {
         
-        //Переход в PostVC по нажатию кнопки
-        let postViewController = PostViewController()
+        //Переход в PostVC по нажатию кнопки плюс передаем объект post
+        let postViewController = PostViewController(post: post)
         self.navigationController?.pushViewController(postViewController, animated: true)
         
     }
