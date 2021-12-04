@@ -15,6 +15,7 @@
 		8405DF81275B6A6700D244DE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405DF80275B6A6700D244DE /* ProfileViewController.swift */; };
 		8405DF83275B6E7300D244DE /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405DF82275B6E7300D244DE /* PostViewController.swift */; };
 		8405DF85275B77E200D244DE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405DF84275B77E200D244DE /* Post.swift */; };
+		8405DF87275B95EC00D244DE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405DF86275B95EC00D244DE /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8405DF80275B6A6700D244DE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8405DF82275B6E7300D244DE /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		8405DF84275B77E200D244DE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8405DF86275B95EC00D244DE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				8405DF7E275B6A3E00D244DE /* FeedViewController.swift */,
 				8405DF80275B6A6700D244DE /* ProfileViewController.swift */,
 				8405DF82275B6E7300D244DE /* PostViewController.swift */,
+				8405DF86275B95EC00D244DE /* InfoViewController.swift */,
 				8405DF84275B77E200D244DE /* Post.swift */,
 			);
 			path = Controllers;
@@ -170,6 +173,7 @@
 				8405DF6C275B57BA00D244DE /* MainTabBarController.swift in Sources */,
 				8405DF85275B77E200D244DE /* Post.swift in Sources */,
 				8405DF7F275B6A3F00D244DE /* FeedViewController.swift in Sources */,
+				8405DF87275B95EC00D244DE /* InfoViewController.swift in Sources */,
 				8405DF81275B6A6700D244DE /* ProfileViewController.swift in Sources */,
 				8405DF68275B57BA00D244DE /* AppDelegate.swift in Sources */,
 				8405DF83275B6E7300D244DE /* PostViewController.swift in Sources */,

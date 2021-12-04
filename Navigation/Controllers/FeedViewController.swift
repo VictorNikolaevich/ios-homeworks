@@ -27,11 +27,11 @@ class FeedViewController: UIViewController {
         button.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
         button.center = view.center
         button.layer.cornerRadius = 25
-        button.addTarget(self, action: #selector(buttonTappedtoPost), for: .touchUpInside)
+        button.addTarget(self, action: #selector(buttonTappedToPostVC), for: .touchUpInside)
        
     }
     
-    @objc func buttonTappedtoPost() {
+    @objc func buttonTappedToPostVC() {
         
         //Переход в PostVC по нажатию кнопки плюс передаем объект post
         let postViewController = PostViewController(post: post)
