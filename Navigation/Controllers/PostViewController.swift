@@ -49,7 +49,6 @@ class PostViewController: UIViewController {
             target: self,
             action: #selector(goToInfoVC)
         )
-        
     }
     
     @objc func goToInfoVC() {
@@ -59,7 +58,6 @@ class PostViewController: UIViewController {
             animated: true,
             completion: nil
         )
-        
     }
     
     @objc func goBackToFeedVC() {
