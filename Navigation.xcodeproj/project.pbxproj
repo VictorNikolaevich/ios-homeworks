@@ -16,6 +16,7 @@
 		8405DF85275B77E200D244DE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405DF84275B77E200D244DE /* Post.swift */; };
 		8405DF87275B95EC00D244DE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405DF86275B95EC00D244DE /* InfoViewController.swift */; };
 		849B81922775F0BB007D05A3 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B81912775F0BB007D05A3 /* ProfileHeaderView.swift */; };
+		849B81942775FA6C007D05A3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B81932775FA6C007D05A3 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8405DF84275B77E200D244DE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8405DF86275B95EC00D244DE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		849B81912775F0BB007D05A3 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		849B81932775FA6C007D05A3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				849B81912775F0BB007D05A3 /* ProfileHeaderView.swift */,
+				849B81932775FA6C007D05A3 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				8405DF87275B95EC00D244DE /* InfoViewController.swift in Sources */,
 				8405DF68275B57BA00D244DE /* AppDelegate.swift in Sources */,
 				8405DF83275B6E7300D244DE /* PostViewController.swift in Sources */,
+				849B81942775FA6C007D05A3 /* ProfileViewController.swift in Sources */,
 				849B81922775F0BB007D05A3 /* ProfileHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
